@@ -1,0 +1,111 @@
+.body {
+  
+  /* background: #6a11cb;
+
+
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)); */
+
+  /* background: #E9F1FA;
+  background: -webkit-linear-gradient(to right, rgb(189, 182, 198), rgb(133, 158, 200));
+   background: linear-gradient(to right, rgb(158, 129, 189), rgb(118, 162, 237))  */
+  /* background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)) */
+}
+.navbarr{
+  position:absolute;
+  right:0px;
+  width:300px;
+  padding:auto;
+  margin-right:auto;
+  
+}
+.navbarradmin{
+  position:absolute;
+  right:0px;
+  width:100px;
+  padding:auto;
+  margin-right:auto;
+  color: rgb(37, 195, 195);
+  
+}
+.profile_tag{
+  display: flex;  
+  justify-content:center;
+}
+.logout_tag{
+  display: flex;  
+  justify-content:center;
+}
+
+.vh-100 {
+  min-height: 100vh;
+}
+
+.complaint-stats h5 {
+  margin-bottom: 1rem;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+
+.complaint-card {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.complaint-card:hover {
+  transform: translateY(-5px);
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.pending {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.completed {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* styles.css */
+.profile-card {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.profile-info {
+  text-align: right;
+}
+
+.complaint-stats h5 {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.complaint-stats h5 span:first-child {
+  font-weight: normal;
+  margin-right: 0.5rem;
+}
+
+.complaint-count {
+  font-weight: bold;
+  margin-left: auto;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+ 
